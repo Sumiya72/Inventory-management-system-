@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -470,6 +471,16 @@ function displayProducts() {
     document.getElementById("totalValue").textContent =
         products.reduce(
             (sum, item) => sum + item.quantity * item.price, 0
+        ).toFixed(2);
+}
+
+displayProducts();
+
+</script>
+
+</body>
+</html>
+em.quantity * item.price, 0
         ).toFixed(2);
 }
 
